@@ -3,10 +3,1159 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My HTML Page</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="title" content="GHARBI Leith | Software Engineer" />
+    <meta
+      name="description"
+      content="a portfolio to showcase my experience, education, skill-set, projects, certificates, achievements and recommendations."
+    />
+    <meta
+      name="keywords"
+      content="software engineer, GHARBI Leith, GHARBI Leith, GHARBI Leith, javascript developer, Leith developer, Leith Javascript developer, MEAN stack developer, Leith MEAN stack developer, full stack javascript developer, Leith full stack javascript developer, Leith722, GHARBI Leith Leith722"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="author" content="GHARBI Leith" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://leith-gharbi.github.io/" />
+    <meta
+      property="og:description"
+      content="a webpage to showcase my experience, education, skill-set, projects, certificates, achievements and recommendations."
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#fff" />
+    <link rel="canonical" href="https://leith-gharbi.github.io/" />
+    <title>GHARBI Leith | Software Engineer</title>
+
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kodchasan&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="./manifest.json" />
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+
+    <!--  Magnific Popup css file  -->
+    <link
+      rel="stylesheet"
+      href="./dependencies/magnific-popup/dist/magnific-popup.css"
+    />
+
+    <!--  Owl-carousel css file  -->
+    <link
+      rel="stylesheet"
+      href="./dependencies/owl-carousel/css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./dependencies/owl-carousel/css/owl.theme.default.min.css"
+    />
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <h1>I'm hosted with Github Pages!</h1>
+
+  <body id="body">
+    <!--  ======================= Start Header Area ============================== -->
+    <header class="header_area">
+      <div class="main-menu">
+        <nav
+          class="navbar navbar-expand-lg navbar-light fixed-top"
+          id="top-nav-fixed"
+        >
+          <a class="navbar-brand" href="#" style="margin-left: 5%">
+            <img src="./img/logo/img_profile.svg" width="60px" alt="logo" />
+          </a>
+          <input
+            class="toggle mobile-show"
+            type="checkbox"
+            checked
+            onclick="toggleTheme()"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fas fa-stream"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  rel="noreferrer"
+                  href="https://github.com/Leith-Gharbi"
+                  target="_blank"
+                  ><mark>Projects</mark></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="certificates.html"
+                  ><mark>Certificates</mark></a
+                >
+              </li>
+              <li class="nav-item">
+                <input
+                  class="toggle desktop-show"
+                  type="checkbox"
+                  checked
+                  onclick="toggleTheme()"
+                />
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= Start Main Area ================================ -->
+    <main class="site-main">
+      <!--  ======================= Start Banner Area =======================  -->
+      <section class="site-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 site-title">
+              <h3 class="title-text text-uppercase">Hey, I am Leith👋</h3>
+              <h4 class="text-uppercase">
+                I am a <span id="subheading"></span>
+              </h4>
+              <hr />
+              <p>
+                Fullstack .NET Developer with over 7 years of experience,
+                passionate about developing robust software solutions and
+                integrating best DevOps practices. Leveraging deep technical
+                skills and the ability to quickly adapt to dynamic work
+                environments, I am committed to making a meaningful contribution
+                within an innovative team.
+              </p>
+
+              <hr />
+              <div class="social">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Leith-Gharbi"
+                  class="social-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/leith-gharbi-098a78123/"
+                  class="social-link"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+
+                <a href="mailto:leithgharbi@yahoo.fr" class="social-link"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </div>
+              <div class="site-buttons">
+                <div class="d-flex flex-row flex-wrap">
+                  <button
+                    type="button"
+                    class="btn button primary-button mr-4 text-uppercase first-btn"
+                  >
+                    <a href="./assets/Leith_Gharbi.pdf" target="_blank"
+                      >RESUME &nbsp;<i
+                        class="fas fa-external-link-alt"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </button>
+                  <!-- <button
+                    type="button"
+                    class="btn button secondary-button text-uppercase second-btn"
+                  >
+                    <a href="tel:+33-758527913">Hire Me</a>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 banner-image">
+              <lottie-player
+                src="./img/banner/Blogging.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+              >
+              </lottie-player>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  ======================= End Banner Area =======================  -->
+
+      <!--  ========================= Start Experience Area ==========================  -->
+      <section class="faq-section py-5" id="experience">
+        <div class="container single-col-max">
+          <div class="row text-center">
+            <div class="col-12">
+              <div class="about-title">
+                <h3 class="text-uppercase title-text" style="font-size: 35px">
+                  Experience
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div id="exp-accordion" class="faq-accordion mx-auto">
+            <!-- Experience 0 -->
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-building mr-2"></i>
+                  <a
+                    data-parent="#exp-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#experience5"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-up"></i>
+                    BNP Paribas (<i>Sr.Software Engineer</i>)
+                  </a>
+                  <span>June 2024 - Present</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse show" id="experience5">
+                <div class="card-body p-4 bg-white">
+                  <h2>Objective:</h2>
+                  <p>
+                    Development and maintenance of solutions automating user
+                    request processing on the ServiceNow platform, including
+                    configuring workflows on an orchestrator, developing a
+                    front-end application for real-time pipeline execution
+                    tracking, and setting up dashboards for proactive anomaly
+                    detection.
+                  </p>
+
+                  <h3>Tasks:</h3>
+                  <ul>
+                    <li>API integration.</li>
+                    <li>
+                      Implementation of YAML files to configure pipelines,
+                      ensuring flexible and structured workflow management.
+                    </li>
+                    <li>
+                      Implementation and integration of graphical mockups on the
+                      front-end.
+                    </li>
+                    <li>
+                      Deployment via CI/CD on integration, UAT, PreProd, and
+                      Prod environments.
+                    </li>
+                  </ul>
+
+                  <h3>Technical Environment:</h3>
+                  <ul>
+                    <li>
+                      <strong>Languages and Frameworks:</strong> C#, .Net 8,
+                      Nuxt3, TypeScript, YAML, PowerShell.
+                    </li>
+                    <li>
+                      <strong>Application Server:</strong> Cloud IBM,
+                      Kubernetes.
+                    </li>
+                    <li><strong>Database:</strong> MongoDB.</li>
+                    <li><strong>Tools:</strong> JIRA, GitLab.</li>
+                    <li><strong>Methodology:</strong> Agile (Scrum).</li>
+                  </ul>
+
+                  <h3>Domain:</h3>
+                  <p>Banking.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Experience 0 -->
+            <!-- Experience 1 -->
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-building mr-2"></i>
+                  <a
+                    data-parent="#exp-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#experience5"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-up"></i>
+                    BNP Paribas (<i>Sr.Software Engineer</i>)
+                  </a>
+                  <span>Oct 2023 - June 2024</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse show" id="experience5">
+                <div class="card-body p-4 bg-white">
+                  <h2>Objective:</h2>
+                  <p>
+                    Contributing to the development of the "Marketplace le
+                    Comptoir" platform, designed to centralize BNP Paribas' IT
+                    portals to optimize the user experience.
+                  </p>
+
+                  <h3>Tasks:</h3>
+                  <ul>
+                    <li>Integration of APIs.</li>
+                    <li>Implementation of PowerShell scripts.</li>
+                    <li>
+                      Deployment through CI/CD across Integration, UAT, PreProd,
+                      and Production environments.
+                    </li>
+                  </ul>
+
+                  <h3>Technical Environment:</h3>
+                  <ul>
+                    <li>
+                      <strong>Languages and Frameworks:</strong> C#, .NET 6,
+                      PowerShell, TypeScript, Microsoft Graph API.
+                    </li>
+                    <li><strong>Application Server:</strong> IIS7.</li>
+                    <li><strong>Database:</strong> MongoDB.</li>
+                    <li><strong>Tools:</strong> JIRA, GitLab.</li>
+                    <li><strong>Methodology:</strong> Agile (Scrum).</li>
+                  </ul>
+
+                  <h3>Domain:</h3>
+                  <p>Banking.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Experience 1 -->
+
+            <!--  Experience 2 -->
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-building mr-2"></i>
+                  <a
+                    data-parent="#exp-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#experience4"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-up"></i>
+                    BNP Paribas (<i>Sr.Software Engineer</i>)
+                  </a>
+                  <span>Sept 2022 - Oct 2023</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse show" id="experience4">
+                <div class="card-body p-4 bg-white">
+                  <h2>Objective:</h2>
+                  <p>
+                    Development of the MAPLE platform to manage Active Directory
+                    rules, mobile devices, email, and licenses. This platform is
+                    used by robots to automate the onboarding processes for new
+                    employees within the group, as well as to deactivate rules
+                    and access upon departures.
+                  </p>
+
+                  <h3>Tasks:</h3>
+                  <ul>
+                    <li>
+                      Development of the application's core foundation
+                      (Authentication, menu, and navigation).
+                    </li>
+                    <li>Implementation of custom features.</li>
+                    <li>
+                      Implementation and integration of graphical mockups on the
+                      front-end.
+                    </li>
+                    <li>
+                      Deployment through CI/CD across Integration, UAT, PreProd,
+                      and Production environments.
+                    </li>
+                  </ul>
+
+                  <h3>Technical Environment:</h3>
+                  <ul>
+                    <li>
+                      <strong>Languages and Frameworks:</strong> VueJs 2,
+                      Vuetify2, TypeScript, Node.js, Fastify.
+                    </li>
+                    <li><strong>Application Server:</strong> IIS7.</li>
+                    <li><strong>Database:</strong> MongoDB.</li>
+                    <li><strong>Tools:</strong> JIRA, GitLab, SonarQube.</li>
+                    <li><strong>Methodology:</strong> Agile (Scrum).</li>
+                  </ul>
+
+                  <h3>Domain:</h3>
+                  <p>Banking.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Experience 2 -->
+            <!--  Experience 3 -->
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-building mr-2"></i>
+                  <a
+                    data-parent="#exp-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#experience3"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                    Naxxum (<i>.NET / Angular Developer</i>)
+                  </a>
+                  <span>April 2022 - Sept 2022</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse show" id="experience3">
+                <div class="card-body p-4 bg-white">
+                  <h2>Objective:</h2>
+                  <p>
+                    Implementation of the TeamPlanning platform aimed at
+                    optimizing the allocation of resources between contracts or
+                    with low workloads within the digital factory.
+                  </p>
+
+                  <h3>Tasks:</h3>
+                  <ul>
+                    <li>
+                      Development of the application's core foundation
+                      (Authentication, menu, and navigation).
+                    </li>
+                    <li>
+                      Implementation of APIs using Domain-Driven Design (DDD)
+                      and Microservices architecture.
+                    </li>
+                    <li>
+                      Implementation and integration of graphical mockups on the
+                      frontend, adopting a micro-frontend architecture.
+                    </li>
+                    <li>Setup of CI/CD pipelines on Azure DevOps.</li>
+                    <li>Packaging and deployment on Docker and Kubernetes.</li>
+                  </ul>
+
+                  <h3>Technical Environment:</h3>
+                  <ul>
+                    <li>
+                      <strong>Languages and Frameworks:</strong> C#, .NET 6,
+                      DDD, CQRS, Clean Architecture, MediatR, Angular 14, Kafka,
+                      REST Web Services, Swagger.
+                    </li>
+                    <li><strong>Application Server:</strong> IIS7.</li>
+                    <li><strong>Database:</strong> SQL Server.</li>
+                    <li>
+                      <strong>Tools:</strong> Azure DevOps, SonarQube, Docker,
+                      Kubernetes, Azure Pipeline, Azure Kubernetes.
+                    </li>
+                    <li><strong>Methodology:</strong> Agile (Scrum).</li>
+                  </ul>
+
+                  <h3>Domain:</h3>
+                  <p>Software Development.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Experience 3 -->
+            <!--  Experience 4 -->
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-building mr-2"></i>
+                  <a
+                    data-parent="#exp-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#experience2"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                    Tunisian Air Force (<i>.NET / React Developer</i>)
+                  </a>
+                  <span>Jan 2021 - April 2022</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse show" id="experience2">
+                <div class="card-body p-4 bg-white">
+                  <h2>Objective:</h2>
+                  <p>
+                    Developing a web application to digitize administrative
+                    services.
+                  </p>
+
+                  <h3>Tasks:</h3>
+                  <ul>
+                    <li>
+                      Development of the application's core foundation
+                      (Authentication, menu, and navigation).
+                    </li>
+                    <li>
+                      Implementation of APIs using clean architecture and
+                      Microservices architecture.
+                    </li>
+                    <li>Writing specifications.</li>
+                    <li>Report generation with Devexpress 20.2.</li>
+                    <li>Conduct unit tests and fix anomalies.</li>
+                    <li>Setup of CI/CD pipelines on Azure DevOps.</li>
+                    <li>
+                      Participate in the production deployment and user support.
+                    </li>
+                  </ul>
+
+                  <h3>Technical Environment:</h3>
+                  <ul>
+                    <li>
+                      <strong>Languages and Frameworks:</strong> C#, .NET 5,
+                      ReactJS, Redux, Material UI, NUnit, REST Web Services,
+                      Swagger.
+                    </li>
+                    <li><strong>Application Server:</strong> IIS7.</li>
+                    <li><strong>Database:</strong> PostgreSQL.</li>
+                    <li>
+                      <strong>Tools:</strong>JIRA, GitLab, Visual Studio 2019,
+                      Visual Studio Code, PgAdmin, Devexpress 20.2.
+                    </li>
+                    <li><strong>Methodology:</strong> Agile (Scrum).</li>
+                  </ul>
+
+                  <h3>Domain:</h3>
+                  <p>Defense.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Experience 4 -->
+
+            <!--  Experience 5 -->
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-building mr-2"></i>
+                  <a
+                    data-parent="#exp-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#experience2"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                    Tunisian Air Force (<i>.NET Developer</i>)
+                  </a>
+                  <span>August 2019 - Jan 2021</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse show" id="experience2">
+                <div class="card-body p-4 bg-white">
+                  <h2>Objective:</h2>
+                  <p>
+                    Design and development of a web application for the
+                    management of aeronautical equipment within the Air Force's
+                    supply services.
+                  </p>
+
+                  <h3>Tasks:</h3>
+                  <ul>
+                    <li>
+                      Development of the application's core foundation
+                      (Authentication, menu, and navigation).
+                    </li>
+                    <li>Participated in product development from scratch.</li>
+                    <li>Writing specifications and requirement documents.</li>
+                    <li>Creating and integrating REST web services.</li>
+                    <li>Creation of dashboards.</li>
+                    <li>Report generation.</li>
+                    <li>Database modeling and optimization.</li>
+                    <li>
+                      Participate in the production deployment and user support.
+                    </li>
+                  </ul>
+
+                  <h3>Technical Environment:</h3>
+                  <ul>
+                    <li>
+                      <strong>Languages and Frameworks:</strong> C#, .NET
+                      Framework, Web Forms, jQuery, Entity Framework, ADO.NET.
+                    </li>
+                    <li><strong>Application Server:</strong> IIS7.</li>
+                    <li><strong>Database:</strong> MySQL.</li>
+                    <li>
+                      <strong>Tools:</strong>JIRA, GitLab, Visual Studio 2017,
+                      MySQL Workbench,PowerAMC, DevExpress 17.1.
+                    </li>
+                    <li><strong>Methodology:</strong> Agile (Scrum).</li>
+                  </ul>
+
+                  <h3>Domain:</h3>
+                  <p>Defense.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Experience 5 -->
+
+            <!--  Experience 6 -->
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-building mr-2"></i>
+                  <a
+                    data-parent="#exp-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#experience7"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                    Tunisian Air Force (<i>.NET Developer</i>)
+                  </a>
+                  <span>Sept 2017 - August 2019</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse show" id="experience7">
+                <div class="card-body p-4 bg-white">
+                  <h2>Objective:</h2>
+                  <p>
+                    Design and development of a web application dedicated to the
+                    daily management of personnel, facilitating the tracking of
+                    attendance and absences.
+                  </p>
+
+                  <h3>Tasks:</h3>
+                  <ul>
+                    <li>Writing specifications and requirement documents.</li>
+                    <li>
+                      Development of web services to ensure communication and
+                      data exchange with other existing applications.
+                    </li>
+                    <li>Writing specifications and requirement documents.</li>
+                    <li>Creation of dashboards.</li>
+                    <li>Report generation.</li>
+                    <li>Database modeling and optimization.</li>
+                    <li>
+                      Development of multithreaded features to enhance the
+                      application's performance and responsiveness.
+                    </li>
+                    <li>
+                      Participate in the production deployment and user support.
+                    </li>
+                  </ul>
+
+                  <h3>Technical Environment:</h3>
+                  <ul>
+                    <li>
+                      <strong>Languages and Frameworks:</strong> VB.Net, .NET
+                      Framework, Web Forms, jQuery, Entity Framework, ADO.NET,
+                      SOAP Web Services.
+                    </li>
+                    <li><strong>Application Server:</strong> IIS.</li>
+                    <li><strong>Database:</strong> MySQL.</li>
+                    <li>
+                      <strong>Tools:</strong>JIRA, GitLab, Visual Studio 2015,
+                      MySQL Workbench, DevExpress 17.1
+                    </li>
+                    <li><strong>Methodology:</strong> Agile (Scrum).</li>
+                  </ul>
+
+                  <h3>Domain:</h3>
+                  <p>Defense.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Experience 6 -->
+          </div>
+        </div>
+      </section>
+      <!--  ========================= End Experience Area ==========================  -->
+
+      <!--  ========================= Start Education Area ==========================  -->
+      <section class="faq-section py-5" id="education">
+        <div class="container single-col-max">
+          <div class="row text-center">
+            <div class="col-12">
+              <div class="about-title">
+                <h3 class="text-uppercase title-text" style="font-size: 35px">
+                  Education
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div id="faq-accordion" class="faq-accordion mx-auto">
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-school mr-2"></i>
+                  <a
+                    data-parent="#faq-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#education1"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-up"></i>
+                    Computer Engineering Degree (Military Academy of Fondouk
+                    Jdid)
+                  </a>
+                  <span>2014 - 2017</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse show" id="education1">
+                <div class="card-body p-4 bg-white">
+                  <p>
+                    Computer Engineering Program focuses on advanced software
+                    development, systems design, and networking, preparing
+                    students for careers in IT and technology innovation.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0 mb-4 shadow-sm">
+              <div class="card-header border-0 p-4 theme-bg-light">
+                <h4 class="card-title mb-0 exp">
+                  <i class="fas fa-school mr-2"></i>
+                  <a
+                    data-parent="#faq-accordion"
+                    data-toggle="collapse"
+                    class="card-toggle collapsed"
+                    href="#education2"
+                    aria-expanded="false"
+                  >
+                    <i class="fas fa-chevron-down"></i>
+                    Preparatory Cycle in Mathematics and Physics (<i>IPEIB</i>)
+                  </a>
+                  <span>2012 - 2014</span>
+                </h4>
+              </div>
+
+              <div class="card-collapse collapse" id="education2">
+                <div class="card-body p-4 bg-white">
+                  <p>
+                    Preparatory Program in Mathematics and Physics, providing a
+                    strong foundation in advanced scientific and analytical
+                    principles
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  ========================= End Education Area ==========================  -->
+
+      <!--  ========================Start Production Skill Area ==============================  -->
+      <section id="skills">
+        <div class="container">
+          <div class="col-lg-12 text-center services-title">
+            <h3 class="text-uppercase title-text" style="font-size: 35px">
+              Production Level Skills
+            </h3>
+          </div>
+          <div class="integration-list row justify-content-center py-5">
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/c-sharp.svg"
+                alt="c-sharp"
+              />
+              <p class="skill-label">C-Sharp</p>
+            </div>
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/NET_Core_Logo.svg"
+                alt="c-sharp"
+              />
+              <p class="skill-label">.Net</p>
+            </div>
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/powershell.svg"
+                alt="javascript"
+              />
+              <p class="skill-label">Powershell</p>
+            </div>
+
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/sql-server.svg"
+                alt="sql-server"
+              />
+              <p class="skill-label">Sql Server</p>
+            </div>
+
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/javascript.svg"
+                alt="javascript"
+              />
+              <p class="skill-label">JavaScript</p>
+            </div>
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/typescript.svg"
+                alt="TypeScript"
+              />
+              <p class="skill-label">TypeScript</p>
+            </div>
+
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/vuejs.svg"
+                alt="vuejs"
+              />
+              <p class="skill-label">VueJS</p>
+            </div>
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/vuetify.svg"
+                alt="vuetify"
+              />
+              <p class="skill-label">Vuetify</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/angular.svg"
+                alt="angular"
+              />
+              <p class="skill-label">Angular</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/angular-material.svg"
+                alt="angular-material"
+              />
+              <p class="skill-label">Angular Material</p>
+            </div>
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/react.svg"
+                alt="reactJs"
+              />
+              <p class="skill-label">ReactJS</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/redux.svg"
+                alt="redux"
+              />
+              <p class="skill-label">Redux</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/material-ui.svg"
+                alt="material-ui"
+              />
+              <p class="skill-label">Material UI</p>
+            </div>
+
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/nodejs.svg"
+                alt="nodejs"
+              />
+              <p class="skill-label">NodeJS</p>
+            </div>
+
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/fastify.svg"
+                alt="fastify"
+              />
+              <p class="skill-label">fastifyJS</p>
+            </div>
+
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/bootstrap.svg"
+                alt="bootstrap"
+              />
+              <p class="skill-label">Bootstrap</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 top-line-lg">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/mongodb.svg"
+                alt="mongodb"
+              />
+              <p class="skill-label">MongoDB</p>
+            </div>
+
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/mysql.svg"
+                alt="mysql"
+              />
+              <p class="skill-label">MySQL</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/postgres.svg.png"
+                alt="postgres"
+              />
+              <p class="skill-label">PostgreSQL</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/docker.svg"
+                alt="docker"
+              />
+              <p class="skill-label">Docker</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  ======================== End Production Skill Area ==============================  -->
+
+      <!--  ========================Start Other Skill Area ==============================  -->
+      <section id="skills">
+        <div class="container">
+          <div class="col-lg-12 text-center services-title">
+            <h3 class="text-uppercase title-text" style="font-size: 35px">
+              Other Relevant Skills
+            </h3>
+          </div>
+          <div class="integration-list row justify-content-center py-5">
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/agile.svg"
+                alt="agile"
+              />
+              <p class="skill-label">AGILE</p>
+            </div>
+            <div
+              class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5 bottom-line-lg"
+            >
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/Python.svg"
+                alt="Python"
+              />
+              <p class="skill-label">Python</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/Kubernetes.svg"
+                alt="Kubernetes"
+              />
+              <p class="skill-label">Kubernetes</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/gitlab.svg"
+                alt="gitlab"
+              />
+              <p class="skill-label">Gitlab</p>
+            </div>
+            <div class="item col-4 col-md-3 col-lg-2 mb-3 mb-lg-5">
+              <img
+                class="shadow rounded-circle"
+                src="./img/skills/azure.svg"
+                alt="azure"
+              />
+              <p class="skill-label">Azure</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  ======================== End Skill Area ==============================  -->
+    </main>
+    <!--  ======================= End Main Area ================================ -->
+
+    <footer class="footer-area">
+      <div class="container">
+        <div class="">
+          <div class="site-logo text-center py-4">
+            <img src="./img/logo/img_profile.svg" width="60px" alt="logo" />
+          </div>
+          <div class="text-center">
+            <h5 class="text-uppercase">Connect me on</h5>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Leith-Gharbi"
+              class="social social-link"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/leith-gharbi-098a78123/"
+              class="social social-link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+
+            <a href="mailto:leithgharbi@yahoo.fr" class="social social-link"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+          <div class="copyrights text-center">
+            <p class="para">|| made with ❤️️ in 🇮🇳 ||</p>
+            <p>
+              <!-- Place this tag where you want the button to render. -->
+              <a
+                class="github-button"
+                href="https://github.com/Leith-Gharbi/Leith-Gharbi.tech/fork"
+                data-color-scheme="no-preference: dark; light: dark; dark: light;"
+                data-icon="octicon-repo-forked"
+                data-size="large"
+                data-show-count="true"
+                aria-label="Fork Leith722/Leith-Gharbi.tech on GitHub"
+                >Fork</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scroll-btn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+      let theme = localStorage.getItem('portfolio-theme')
+        ? localStorage.getItem('portfolio-theme')
+        : 'light';
+      if (theme == 'light') {
+        document.getElementsByClassName('toggle')[0].checked = true;
+        document.getElementsByClassName('toggle')[1].checked = true;
+      } else {
+        document.getElementsByClassName('toggle')[0].checked = false;
+        document.getElementsByClassName('toggle')[1].checked = false;
+      }
+      document.addEventListener('DOMContentLoaded', () => {
+        if (theme == 'light') {
+          document.getElementById('body').classList.remove('dark');
+        } else {
+          document.getElementById('body').classList.add('dark');
+        }
+      });
+
+      function toggleTheme() {
+        if (theme == 'light') {
+          document.getElementById('body').classList.add('dark');
+          theme = 'dark';
+          localStorage.setItem('portfolio-theme', 'dark');
+        } else {
+          document.getElementById('body').classList.remove('dark');
+          theme = 'light';
+          localStorage.setItem('portfolio-theme', 'light');
+        }
+      }
+    </script>
+
+    <script src="./dependencies/Typewriter/typewriter.min.js"></script>
+
+    <script>
+      var typewriter = new Typewriter('#subheading', {
+        strings: [
+          'SOFTWARE ENGINEER',
+          'FULL STACK DEVELOPER',
+          '.NET DEVELOPER',
+        ],
+        autoStart: true,
+        loop: true,
+      });
+    </script>
+
+    <!--  Jquery js file  -->
+    <script defer src="./js/jquery.3.4.1.js"></script>
+
+    <!--  Bootstrap js file  -->
+    <script defer src="./js/bootstrap.min.js"></script>
+
+    <script defer src="./js/all.min.js"></script>
+
+    <!--  isotope js library  -->
+    <script defer src="./dependencies/isotope/isotope.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script
+      defer
+      src="./dependencies/magnific-popup/dist/jquery.magnific-popup.js"
+    ></script>
+
+    <!--  Owl-carousel js file  -->
+    <script
+      defer
+      src="./dependencies/owl-carousel/js/owl.carousel.min.js"
+    ></script>
+
+    <!--  custom js file  -->
+    <script defer src="./js/main.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- lottie-player -->
+    <script
+      defer
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    ></script>
   </body>
 </html>
