@@ -14,7 +14,7 @@
 ## install
 
 ```sh
-git clone https://github.com/Leith-Gharbi/Leith722.github.io.git
+git clone https://github.com/Leith-Gharbi/Leith-Gharbi.github.io.git
 ```
 
 ## usage
@@ -29,10 +29,10 @@ a webpage to showcase my experience, education, skill-set, projects, certificate
 
 ## 👤 author
 
-**Leith GHARBI (Leithr417@gmail.com)**
+**Leith GHARBI (leithgharbi@yahoo.fr)**
 
 - website: https://leith-gharbi.github.io/
-- linkedin: [@Leith](https://linkedin.com/in/Leith722)
+- linkedin: [@Leith](https://www.linkedin.com/in/leith-gharbi-098a78123/)
 
 ## 🚀 future scope
 
